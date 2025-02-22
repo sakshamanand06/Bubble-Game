@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    color: white;
+}
+
+.game {
+    height: 90%;
+    width: 90%;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 8px 8px #333;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.top {
+    width: 100%;
+    height: 15%;
+    padding: 0 300px;
+    background-color: rgb(122, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info {
+    width: 200px;
+    min-width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #ffd900bd;
+    color: black;
+    border-radius: 10px;;
+}
+.hit, .timer, .score {
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 50px;
+    text-align: center;
+    background-color: #F5DEB3;
+}
+
+.bottom {
+    width: 100%;
+    height: 85%;
+    padding: 30px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    /* gap: 10px; */
+}
+
+.bubble {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #008B8B;
+    color: #FFFFE0;
+    border: 1px solid #006B6B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble:hover{
+    background-color: #00A0A0;
+    border: 1px solid white;
+}
