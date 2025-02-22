@@ -1,4 +1,5 @@
 # Bubble game
+Link to play:- [Bubble game](https://sakshamanand06.github.io/Bubble-Game/)
 ## Gameplay:
 1. Find and click on the bubble with the number shown in "To hit" box.
 2. Clicking on correct bubble awards 1 score point and clicking on the wrong one deducts 1 point.
